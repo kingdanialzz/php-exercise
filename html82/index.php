@@ -1,0 +1,1 @@
+<?php echo "Ini laluan html82!"?>
