@@ -1,16 +1,16 @@
 ---
 services:
   php85:
-    container_name: php83
-    image: nordinr/php82-oci8:latest
+    container_name: php8
+    image: nordinr/php8-oci8:latest
     ports:
       - 791:80
     restart: always
     volumes:
       - ./html:/var/www/html
   php84:
-    container_name: php82
-    image: nordinr/php82-oci8:latest
+    container_name: php81
+    image: nordinr/php81-oci8:latest
     ports:
       - 792:80
     restart: always
